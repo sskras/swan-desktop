@@ -34,9 +34,9 @@
     <property name="engines" type="empty">
       <property name="cygsimple" type="empty">
         <property name="Font" type="string" value="DejaVu Sans 10"/>
-        <property name="BgColor" type="string" value="#ededed"/>
-        <property name="FgColor" type="string" value="#3e3e3e"/>
-        <property name="Image" type="string" value="/usr/share/icons/Vibrancy-Colors/apps/256/bootloader.png"/>
+        <property name="BgColor" type="string" value="#f2f2f2"/>
+        <property name="FgColor" type="string" value="#0078ff"/>
+        <property name="Image" type="string" value="/usr/share/pixmaps/swan-splash.png"/>
       </property>
     </property>
   </property>
