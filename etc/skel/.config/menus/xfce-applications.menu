@@ -41,7 +41,7 @@
 			<Filename>xfce-display-settings.desktop</Filename>
 		</Exclude>
 		<Exclude>
-			<Filename>lux-update.desktop</Filename>
+			<Filename>spm-update.desktop</Filename>
 		</Exclude>
 	</Menu>
 	<Exclude>
