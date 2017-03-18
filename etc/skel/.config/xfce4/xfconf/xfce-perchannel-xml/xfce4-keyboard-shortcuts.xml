@@ -45,16 +45,12 @@
         <property name="startup-notify" type="bool" value="true"/>
       </property>
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
-      <property name="XF86AudioNext" type="string" value="pragha --next"/>
-      <property name="XF86AudioPrev" type="string" value="pragha --prev"/>
-      <property name="XF86AudioMedia" type="string" value="pragha"/>
       <property name="XF86Memo" type="string" value="xfce4-notes"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Escape" type="string" value="xkill"/>
       <property name="XF86Calculator" type="string" value="galculator"/>
       <property name="Print" type="string" value="xfce4-screenshooter -f"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
-      <property name="XF86AudioPlay" type="string" value="pragha --pause"/>
       <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
       <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
