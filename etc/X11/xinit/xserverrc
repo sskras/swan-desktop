@@ -1,3 +1,2 @@
-killall gam_server
 exec X :0 -multiwindow -multimonitors -resize=randr -notrayicon -nokeyhook -unixkill -nowinkill -compositewm -noprimary
 
