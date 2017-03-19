@@ -1,0 +1,8 @@
+fsset nfs none
+fsset reiserfs none
+fsset ext3 none
+fsset mvfs none
+fsset smbfs none
+fsset cifs none
+fsset autofs none
+
