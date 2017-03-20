@@ -9,7 +9,7 @@ if [ ! -e "$HOME/.config/user-dirs.dirs" ]; then
     fi
 fi
 
-for d in DESKTOP DOCUMENTS DOWNLOAD MUSIC PICTURES PUBLICSHARE TEMPLATES VIDEOS; do
+for d in DESKTOP DOCUMENTS DOWNLOAD MUSIC PICTURES PUBLICSHARE VIDEOS; do
 	ud="$(xdg-user-dir $d)"
     mount | grep "\\s$ud\\s" >/dev/null && break
 	upd="$(cygpath $USERPROFILE/$(basename $ud))"
