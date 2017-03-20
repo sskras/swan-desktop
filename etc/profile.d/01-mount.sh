@@ -14,8 +14,12 @@ for d in DESKTOP DOCUMENTS DOWNLOAD MUSIC PICTURES PUBLICSHARE TEMPLATES VIDEOS;
     mount | grep "\\s$ud\\s" >/dev/null && break
 	upd="$(cygpath $USERPROFILE/$(basename $ud))"
     if [ ! "$(ls -A $ud)" ] && [ -e "$upd" ];  then
-		mount -fo user $(cygpath -w $(readlink -f $upd)) $ud
+	mount -fo user $(cygpath -w $(readlink -f $upd)) $ud
+	if [ ! -e "$ud/.hidden" ]; then
+		echo 'desktop.ini' > "$ud/.hidden"
+		attrib +H +S $(cygpath -w "$ud/.hidden")
 	fi
+    fi
 done
 
 export MOUNT_FINISHED=1
