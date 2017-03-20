@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Name=Gamin
-Comment=file allocation monitor
+Comment=file alteration monitor
 Exec=/usr/libexec/gam_server.exe
 Icon=applications-system
 Terminal=false
