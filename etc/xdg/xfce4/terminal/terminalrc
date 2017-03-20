@@ -1,6 +1,6 @@
 [Configuration]
 Term=gnome-256color
-FontName=DejaVu Sans Mono 18
+FontName=Iosevka Term Medium 16
 MiscCursorShape=TERMINAL_CURSOR_SHAPE_UNDERLINE
 MiscCursorBlinks=TRUE
 MiscAlwaysShowTabs=FALSE
@@ -25,7 +25,7 @@ Encoding=UTF-8
 CommandLoginShell=TRUE
 BackgroundDarkness=1.000000
 CommandUpdateRecords=TRUE
-ScrollingOnOutput=FALSE
+ScrollingOnOutput=TRUE
 ScrollingLines=2048
 FontAllowBold=FALSE
 WordChars=-A-Za-z0-9?$%&#_~
