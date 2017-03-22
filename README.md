@@ -47,3 +47,21 @@ Swan is a Linux-like graphical desktop for 64 bit Microsoft Windows based on [Cy
 - Installing the desktop packages can take a while.  You can close the terminal once cygwin setup begins.
 - Then, find the Desktop shortcut named "Swan Xfce4 Desktop".  Use that to start Xfce.
 - Should you find a bug, or have a suggestion, log it at the [GitHub Issues page](https://github.com/starlight/swan-desktop/issues).
+
+## Package Management
+
+The `swan-base` package includes the `spm` command, which is a wrapper for the Cygwin setup.exe installer.  The `spm` command aims to make package managment easier, while maintaining compatibility with the Cygwin project.
+
+Here are some example usages:
+
+`spm -u` Updates all installed packages.  WARNING: may kill running processes to update binaries.  
+`spm -S` Searches available package names/descriptions. Accepts regex.  
+`spm -m` Lists dependencies of package(s) that are not installed (yet).  
+`spm -i` Installs packages. Multiple packages are separated by spaces.  
+`spm -t` Lists top-level packages that are not needed by any other package.  
+`spm -s` Searches installed package names.  Accepts regex.  
+`spm -r` Removes packages, but not the dependencies.  
+`spm -R` Removes packages, and dependencies.  Leaves dependencies needed by other packages.  
+
+There are more options available, use `spm -h` to get a full listing.
+
