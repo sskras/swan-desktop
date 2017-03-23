@@ -9,7 +9,7 @@ Swan is a Linux-like graphical desktop for 64 bit Microsoft Windows based on [Cy
   - Shared clipboard
   - Access to Windows fonts in X
 - Xfce 4.12 desktop
-  - Vibrancy icons and Radiance-flat GTK themes
+  - Arc GTK theme and Paper icon theme as defaults
   - Uses Window's default browser as Xfce's default browser
   - pulseaudio support available with `swan-desktop-audio` package
 - Thunar file-manager
