@@ -1,7 +1,8 @@
 #!/bin/bash
 
-winsys="$(cygpath "${SYSTEMROOT}/Fonts")"
-if [ -e "$winsys" ]; then
-    mount -fo user $(cygpath -w $winsys) /usr/share/fonts/winsys
+winfonts="$(cygpath "${SYSTEMROOT}/Fonts")"
+if [ -e "$winfonts" ]; then
+    mount -fo user $(cygpath -w $winfonts) /usr/share/fonts/windows
     fc-cache -s
 fi
+unset winfonts
