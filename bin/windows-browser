@@ -1,7 +1,4 @@
 #!/bin/bash
-U="$@"
-if [ -z "$U" ];then
-    U="http://"
-fi
-exo-start "$U"
+
+cygstart -- /bin/windows-browser.vbs "$@"
 
