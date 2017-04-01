@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec matedialog --text-info --title=CHANGELOG --filename=/usr/share/doc/swan-desktop/CHANGELOG --width=640 --height=480
+exec matedialog --text-info --title=ChangeLog --filename=/usr/share/doc/swan-desktop/ChangeLog --width=640 --height=480
