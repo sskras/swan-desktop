@@ -7,9 +7,6 @@
 	<MergeFile type="parent">/etc/xdg/menus/xfce-applications.menu</MergeFile>
 	<Menu>
 		<Name>Accessories</Name>
-		<Exclude>
-			<Filename>Thunar.desktop</Filename>
-		</Exclude>
 	</Menu>
 	<Menu>
 		<Name>Development</Name>
@@ -21,15 +18,6 @@
 		<Name>System</Name>
 		<Exclude>
 			<Filename>Thunar-bulk-rename.desktop</Filename>
-		</Exclude>
-		<Exclude>
-			<Filename>uxterm.desktop</Filename>
-		</Exclude>
-		<Exclude>
-			<Filename>xterm.desktop</Filename>
-		</Exclude>
-		<Exclude>
-			<Filename>xfce4-terminal.desktop</Filename>
 		</Exclude>
 		<Exclude>
 			<Filename>Thunar.desktop</Filename>
@@ -46,8 +34,5 @@
 	</Menu>
 	<Exclude>
 		<Filename>exo-mail-reader.desktop</Filename>
-	</Exclude>
-	<Exclude>
-		<Filename>xfce4-about.desktop</Filename>
 	</Exclude>
 </Menu>
