@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=swan-changelog
+Icon=/BlackSwan.ico
+StartupNotify=false
+Terminal=false
+Categories=Utility;X-XFCE;
+OnlyShowIn=XFCE;
+Name=Swan Changelog
