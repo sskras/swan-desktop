@@ -1,3 +1,5 @@
+2017-04-02
+ * Adjusted the PATH var in cygwin to include /sbin etc
 
 2017-04-01
  * Added the ChangeLog you are reading now
@@ -10,7 +12,7 @@
  * Existing users should migrate files still residing in old $HOME
 
 2017-03-24
- * Add "swan-zsh" package to allow Z-shell as default
+ * Added "swan-zsh" package to allow Z-shell as default
  * Updated many Xfce4 packages to latest versions
 
 2017-03-23
@@ -18,7 +20,7 @@
  * Package manager "spm" updated to remove Cygwinports mirror
 
 2017-03-20
- * Change default themes to Arc for GTK and Paper for icons
+ * Changed default themes to Arc for GTK, and Paper for icons
 
 2017-03-18
  * Project renamed to "Swan" in honor of Cygnus Solutions
