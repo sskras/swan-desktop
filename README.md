@@ -34,8 +34,8 @@ Swan is a Linux-like graphical desktop for 64 bit Microsoft Windows based on [Cy
 - Install packages from the official Cygwin and Cygwinports mirrors
 
 ## Screenshots
-![1](http://www.starlig.ht/public/xfce4-win10.png)
-![2](http://www.starlig.ht/public/xfce4-win10_2.png)
+![1](https://web.archive.org/web/20190811164922/http://www.starlig.ht/public/xfce4-win10.png)
+![2](https://web.archive.org/web/20190811125202/http://www.starlig.ht/public/xfce4-win10_2.png)
 
 ## Installing
 
